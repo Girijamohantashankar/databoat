@@ -524,6 +524,8 @@
   .bar-text-report p,
   .bar-chart-dot p {
     font-size: 10px;
+  }.gauge-meter-text{
+    left: 45%;
   }
 
   .data-boxes-list-text {
