@@ -350,7 +350,7 @@ function Dashboard() {
                 </div>
               </div>
             </div>
-            <div className="data-quality">
+            <div className="data-quality scroll-respons">
               <h1>Rules against target</h1>
               <div className="bar-graph-box">
                 <h1>Validity</h1>

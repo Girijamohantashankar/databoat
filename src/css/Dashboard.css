@@ -462,12 +462,16 @@
 .bar-chart-dot p {
   font-size: 12px;
 }
+.data-quality.scroll-respons{
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
 
 /* responsive for mobile and tablet */
 @media (max-width: 1150px) {
   .container {
     display: inline-block;
-    width: 100%;
+    width: calc(100% - 120px);
   }
   .left-box,
   .right-box {
@@ -548,6 +552,7 @@
   }
   .bar-graph-box1 {
     padding: 5px;
+    
   }
   .bar-chart-dot {
     gap: 10px;
